@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace MegaDesk_4_Eddie_Pincay
 {
-    public partial class SearchQuote : Form
+    public partial class ViewAllQuotes : Form
     {
-        public SearchQuote()
+        public ViewAllQuotes()
         {
             InitializeComponent();
         }
+
+        private void MainMenuButton_Click(object sender, EventArgs e)
+        {
+            var mainMenu = (MainMenu)Tag;
+            mainMenu.Show();
+            Close();
+        }
+
     }
 }

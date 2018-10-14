@@ -30,5 +30,20 @@ namespace MegaDesk_4_Eddie_Pincay
             Close();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ViewAllQuotes viewAllQuotes = new ViewAllQuotes();
+            viewAllQuotes.Tag = this;
+            viewAllQuotes.Show(this);
+            Hide();
+        }
+
+        private void searchAllQuotes_Click(object sender, EventArgs e)
+        {
+            SearchAllQuotes searchAllQuotes = new SearchAllQuotes();
+            searchAllQuotes.Tag = this;
+            searchAllQuotes.Show(this);
+            Hide();
+        }
     }
 }
