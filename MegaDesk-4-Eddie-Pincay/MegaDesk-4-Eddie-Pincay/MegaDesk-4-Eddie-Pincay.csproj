@@ -72,11 +72,11 @@
     <Compile Include="SearchQuote.Designer.cs">
       <DependentUpon>SearchQuote.cs</DependentUpon>
     </Compile>
-    <Compile Include="ViewQuote.cs">
+    <Compile Include="ViewAllQuote.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ViewQuote.Designer.cs">
-      <DependentUpon>ViewQuote.cs</DependentUpon>
+    <Compile Include="ViewAllQuote.Designer.cs">
+      <DependentUpon>ViewAllQuote.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddQuote.resx">
       <DependentUpon>AddQuote.cs</DependentUpon>
@@ -94,6 +94,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ViewAllQuote.resx">
+      <DependentUpon>ViewAllQuote.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

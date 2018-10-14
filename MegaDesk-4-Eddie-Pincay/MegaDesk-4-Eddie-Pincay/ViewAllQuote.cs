@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MegaDesk_4_Eddie_Pincay
 {
-    public partial class ViewQuote : Form
+    public partial class ViewAllQuote : Form
     {
-        public ViewQuote()
+        public ViewAllQuote()
         {
             InitializeComponent();
         }
